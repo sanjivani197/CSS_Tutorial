@@ -1,0 +1,149 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+.main_header
+{
+	background-color:#000000;
+	 color:#ffffff;
+	 
+}
+.div1
+{
+	 display:flex;
+	 justify-content:space-around;
+	 align-items:center;
+	 padding-block:20px;
+
+}
+.div11
+{
+	display:flex;
+	
+
+}
+.div12
+{
+	display:flex;
+}
+.div13
+{
+	display:flex;
+}
+.div2
+{
+	display:flex;
+	align-items:center;
+	justify-content:space-evenly;
+}
+.ulist
+{
+	display:flex;
+	list-style:none;
+	justify-content:space-evenly;
+	align-items:center;
+	
+}
+.ulist li a p
+{
+	color:white;
+	padding-inline:5rem;	
+}
+.ulist li a
+{
+	text-decoration:none;
+}
+.IMG1
+{
+	height:90px;
+}
+main{
+	height:260px;
+}
+footer
+{
+   background-color:black;
+}
+.footer1
+{
+	display:flex;
+	justify-content:space-evenly;
+	padding-top:20px;
+}
+.div21
+{
+	color:white;
+}
+.div22
+{
+	color:white;
+	
+	
+}
+.row2
+{
+	display:flex;
+	
+	justify-content:space-between;
+
+}
+.col2{
+	display:flex;
+	flex-direction:column;
+	
+}
+
+.div22 a 
+{
+	text-decoration:none;
+	color:white;
+	padding: 10px 5px;
+}
+.div22
+{
+	margin-bottom:20px;
+}
+.middle
+{
+	text-align:center;
+}
+.div23
+{
+	color:white;
+}
+.div23 img
+{
+	padding: 10px 5px;
+}
+.div24
+{
+	color:white;
+	
+}
+.div221
+{
+	display:flex;
+	color:white;
+	
+}
+
+.footer2
+{
+	color:white;
+	text-align:center;
+	padding:40px;
+	display: flex;
+    justify-content: space-between;
+    align-items:center;
+	flex-direction:row;
+	
+	
+}
+.foot2
+{
+	padding-left:100px;
+}
+.icon{
+	padding-inline:100px;
+}

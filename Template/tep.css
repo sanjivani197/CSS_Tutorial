@@ -1,0 +1,217 @@
+*
+{
+	margin:0;
+	padding:0;
+	font-family: Assistant,-apple-system,BlinkMacSystemFont,
+	Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+	box-sizing:border-box;
+}
+
+.logo-cont{
+    display: flex;
+    flex: 1;
+}
+.navbar {
+ 
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  color: black;
+}
+
+.nav-links {
+  align-items: center;
+  flex-direction: row;
+  list-style: none;
+  text-align: center;
+
+}
+
+.nav-links li {
+  padding-left:  15px;
+  font-size: 10px;
+}
+ul,li{
+    display: inline;
+}
+.logo {
+  height: 30px;
+  margin-left: 30px;
+}
+.banner
+{
+	background-image:url("img2.jpg");
+	color:white;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	
+	text-align:center;
+}
+.heading1
+{
+	padding-top:40px;
+	color:#ffffff;
+}
+.paragraph1
+{
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  width: 60%;
+}
+.btn1
+{
+	margin-top: 15px;
+	background-color: #39a7ff;
+    padding: 10px 20px;
+    margin: 15px 20px ;
+    border: none;
+    color: white;
+}
+.row1
+{
+	background-color:white;
+	color:white;
+	text-align:center;
+	padding-bottom:5%;
+}
+.heading2
+{
+	padding:20px 0px 0px 0px;
+}
+.heading22
+{
+	color:gray;
+}
+.paragraph2 {
+  
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 20px;
+  color: black;
+}
+.row2
+{
+	background-color:#d3ecea;
+	color:white;
+	display:flex;
+	
+	padding:20px;
+	flex-direction:column;
+    text-align:center;
+	
+}
+.heading3
+{
+	text-align:center;
+}
+.div1
+{
+  margin-top: 30px;
+  display: flex;
+}
+.D1 {
+  flex: 1;
+  padding: 10px;
+  margin: 5px;
+}
+.IMG1
+{
+	height:50px;
+	
+}
+.heading4
+{
+	margin-top:10px;
+}
+.row3
+{
+	
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 60%;
+ padding:5%;
+	
+}
+.officeimg
+{
+  height: 200px;
+  width: 400px;
+}
+.div3
+{
+	width: 40%;
+    padding-left: 20px;
+}
+
+@media screen and (max-width:425px)
+{
+	.row2 .div1
+	{
+		
+		flex-direction:column;
+	}
+	.row3 {
+		
+		flex-direction:column;
+	}
+}
+@media screen and (min-width:425px)
+{
+	.ulist
+	{
+		flex-direction:row;
+		padding-left:1px;
+	}
+}
+.footer1
+{
+	background-color: #39a7ff;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+	
+}
+.footer2
+{
+	text-align: center;
+  background-color: black;
+  justify-content: center;
+  flex-direction: row;
+  padding:2%;
+	
+}
+.ulist2{
+	
+	padding-top:5%;
+}
+.ulist2 li
+
+{
+	 padding-left: 10px;
+   text-decoration: none;
+   color: white;
+	margin: 0;
+  font-size: 15px;
+}
+.li1
+{
+	padding-left:5px;
+}
+.copyright
+{
+	color: white;
+    text-align: center;
+}
+
+
+
+
+
+
+
