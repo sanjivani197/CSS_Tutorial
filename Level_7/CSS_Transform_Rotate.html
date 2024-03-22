@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+   .box
+   { 
+   height:50px;
+   width:50px;
+   border:2px solid black;
+   border-radius:5px;
+   background-color:plum;
+   position:relative;
+   top:50px;
+   left:50px;
+   transition: all 0.5s ease-in;
+   }
+   #box1
+   {
+     background-color:pink;
+   }
+   #box1:hover
+   {
+     transform:rotate(45deg);
+   }
+   #box2
+   {
+     background-color:purple;
+   }
+   #box2:hover
+   {
+    transform:rotatex(45deg);
+   }
+   #box3
+   {
+     background-color:palegreen;
+   }
+   #box3:hover
+   {
+     transform:rotatey(45deg);
+	 
+   }
+   #box4
+   {
+     background-color:lime;
+   }
+   #box4:hover
+   {
+	  transform:rotatez(45deg);
+   }
+  
+</style>
+</head>
+<body>
+<h1> CSS Transform-Rotate</h1>
+<div id="box1"class="box">Rotate 45 deg</div><br>
+<div id="box2"class="box">RotateX 45 deg</div><br>
+<div id="box3"class="box">RotateY 45 deg</div><br>
+<div id="box4"class="box">RotateZ 45 deg</div>
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.item
+{
+height:50px;
+width:50px;
+background-color:pink;
+padding:5px;
+}
+@media screen and (width:200px)
+{
+  .item
+  {
+     background-color:brown;
+  }
+ }
+ 
+ /*when your width is exact 200px then color
+ changes otherwise remain as it is*/
+ .item1
+{
+height:50px;
+width:50px;
+background-color:pink;
+padding:5px;
+}
+@media screen and (min-width:200px)
+{
+  .item1
+  {
+     height:250px;
+	 width:250px;
+  }
+ }
+ /* when your width is more than 200px then height and
+ width changes otherwise remain as it is*/
+ 
+ .item2
+{
+height:50px;
+width:50px;
+background-color:pink;
+padding:5px;
+}
+@media screen and (max-width:200px)
+{
+  .item2
+  {
+     height:300px;
+	 width:300px;
+  }
+ }
+/* when your width is less than 200px then height and
+ width changes otherwise remain as it is*/
+ 
+ .item3
+ {
+height:100px;
+width:100px;
+background-color:orange;
+padding:5px;
+}
+@media screen and (min-width:250px) and (max-width:300px)
+{
+  .item3
+  {
+     border-radius:50%;
+  }
+ }
+/* when your width in between 250 to 300 then border 
+radius changes*/ 
+  </style>
+</head>
+<body>
+<h1>Media Queries</h1>
+
+ <div class="item">Box 1</div> /* only width*/
+ <br>
+ <br>
+ <div class="item1">Box 2</div>/* min width*/
+ <br>
+ <br>
+ <div class="item2">Box 3</div>/* max width*/
+ <br>
+ <br>
+ <div class="item3">Box 4</div>/* combination of min and max width*/
+
+</body>
+</html>

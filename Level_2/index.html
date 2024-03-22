@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Background Color</title>
+<style>
+*
+{
+  margin:0;
+  padding:0;
+}
+.back_learn
+{
+color:red;
+  background-color:greenyellow; 
+}
+#one    /*Color System- RGB*/
+{
+color:rgb(255,0,0);
+}
+#two
+{
+color:rgb(0,255,0); 
+}
+#three
+{
+color:rgb(0,0,255);
+}
+#four
+{
+color:rgb(29,133,44);
+}
+#on  /*Color System- HEX*/
+{
+color:#ff0000;
+}
+#tw
+{
+color:#00ff00;
+}
+#th
+{
+color:#0000ff;
+}
+#fo
+{
+color:#402ae9;
+}
+#o   /*Color System- RGBA*/
+{
+color:rgba(255,0,0,0.2);
+}
+#t
+{
+color:rgba(255,0,0,0.4);
+}
+#tr
+{
+color:rgba(255,0,0,0.6);
+}
+#f
+{
+color:rgba(255,0,0,0.8);
+}
+/*height and width property*/
+#box1
+{
+ height:50px; 
+ width:50px;
+ background-color:red;
+ }
+ #box2
+{
+ height:50px;
+ width:50px;
+ background-color:purple;
+ }
+ #box3
+{
+ height:50px;
+ width:50px;
+ background-color:green;
+ }
+/*background-image*/
+ #icon{
+ height:30px;
+ width:50px;
+ background-image:url(myntra.jpg);
+ background-size:contain;
+ background-repeat:no-repeat;
+ 
+ }
+ <!--Visibility property-->
+ .box
+ {
+ height:50px;
+ width:50px;
+ }
+ #bx1
+ {
+ background-color:aqua;
+ visibility: hidden;
+ }
+ #bx2
+ {
+ background-color:darkcyan;
+ }
+</style>
+</head>
+
+<body>
+<h2> Background-color</h2>
+<div class="back_learn">
+DivisionDivision DivisionDivision
+</div>
+<hr>
+<hr>
+<h2> Color System- RGB</h2>
+<h3 id="one">First</h3>
+<h3 id="two">Second</h3>
+<h3 id="three">Third</h3>
+<h3 id="four">Fourth</h3>
+<hr>
+<hr>
+<h2> Color System- HEX</h2>
+<h4 id="on">First</h4>
+<h4 id="tw">Second</h4>
+<h4 id="th">Third</h4>
+<h4 id="fo">Fourth</h4>
+<hr>
+<hr>
+<h2> Color System- Alpha Channel</h2>
+<h3 id="o">First</h3>
+<h3 id="t">Second</h3>
+<h3 id="tr">Third</h3>
+<h3 id="f">Fourth</h3>
+<hr>
+<hr>
+<h2>Height and Width Property</h2>
+<div id="box1">BOX 1</div><br>
+<div id="box2">BOX 2</div><br>
+<div id="box3">BOX 3</div>
+<hr>
+<hr>
+<h2>Background Image</h2>
+<div id="icon">
+</div>
+<hr>
+<hr>
+<h2>Visibility Property</h2>
+<div id="bx1" class="box">BOX 1</div><br>
+<div id="bx2" class="box">BOX 2</div>
+</body>
+</html>

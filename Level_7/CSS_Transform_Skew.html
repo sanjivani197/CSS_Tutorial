@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+   .box
+   { 
+   height:70px;
+   width:70px;
+   border:2px solid black;
+   border-radius:5px;
+   background-color:plum;
+   position:relative;
+   top:50px;
+   left:50px;
+   transition: all 0.5s ease-in;
+   }
+   #box1
+   {
+     background-color:pink;
+   }
+   #box1:hover
+   {
+     transform:skew(45deg);
+   }
+   #box2
+   {
+     background-color:purple;
+   }
+   #box2:hover
+   {
+    transform:skew(90deg);
+   }
+   
+  
+</style>
+</head>
+<body>
+<h1> CSS Transform-Skew</h1>
+<div id="box1"class="box">Skew 45deg</div><br>
+<div id="box2"class="box">Skew 90deg</div><br>
+
+</body>
+</html>

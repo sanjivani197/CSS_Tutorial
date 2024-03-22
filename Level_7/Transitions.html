@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+   .trans
+	{
+	   height:25px;
+	   width:150px;
+	   background-color:lightgreen;
+	   border:2px solid black;
+	   border-radius:10px;
+       transition-property:all;
+	   transition-duration:1s;
+	   transition-timing-function:ease-in-out;
+	   transition-delay:1s;
+	   /*transition- all 1s ease-in-out 1s;*/
+	  
+    }
+	 .trans:hover
+	 {
+	  height:30px;
+	   width:160px;
+	  background-color:red;
+	 }
+	  .trans:active
+	  {  
+	   height:30px;
+	   width:160px;
+	   background-color:grey;
+	 
+	  }
+
+
+</style>
+</head>
+<body>
+<h1> Transitions</h1>
+<button class="trans">Transition property</button>
+</body>
+</html>
